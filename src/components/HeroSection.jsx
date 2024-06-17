@@ -57,7 +57,7 @@ const HeroSection = () => {
           {/* content */}
           <div className="col-start-2 gap-12  ">
             <div className="col-span-6 relative  rounded-lg hover:scale-90 duration-300 ease overflow-hidden ">
-              <Link to="blood-runner2049" preventScrollReset={true}>
+              <Link to="blade-runner2049" preventScrollReset={true}>
                 <img
                   className="object-cover sm:w-full sm:h-full w-auto h-[400px] bg-center duration-500 ease-in-out rounded-lg "
                   src="thumbnail/brT.webp"

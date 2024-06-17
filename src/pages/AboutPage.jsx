@@ -25,17 +25,11 @@ const AboutPage = () => {
               <div className="flex flex-col sm:flex-row justify-start items-start py-24 sm:space-y-0 space-y-4 ">
                 <h1 className="w-3/6 text-2xl ">About</h1>
                 <p className="w-full text-justify text-xs sm:text-lg leading-10 text-black dark:text-zinc-300">
-                  Within this{" "}
-                  <blockquote className="px-1 text-black dark:text-white bg-zinc-200  dark:bg-zinc-800 inline ">
-                    about section
-                  </blockquote>
-                  , we present a concise overview of the subject matter. Through
-                  a comprehensive description, our objective is to delineate the
-                  goals, missions, and core values associated with our topic. By
-                  emphasizing the intrinsic significance of the subject under
-                  discussion, we aim to convey its inherent importance. Our hope
-                  is that through this information, you will discern the added
-                  value it offers.
+                  This section is dedicated to providing information about our
+                  identity and objectives. Our goal is to offer a clear overview
+                  of who we are, what we do, the values ​​we uphold, and to
+                  provide visitors with a deep understanding of our mission and
+                  vision.
                 </p>
               </div>
               {/* Text */}

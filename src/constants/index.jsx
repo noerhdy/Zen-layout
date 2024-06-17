@@ -59,25 +59,21 @@ export const dataContacts = [
   {
     name: "Gmail",
     url: "https://mail.google.com/mail/u/0/?view=cm&tf=1&fs=1&to=hidayatnoer11@gmail.com",
-    src: "/img/app/gm.webp",
     username: "hidayatnoer11@gmail.com",
   },
   {
     name: "Instagram",
     url: "https://www.instagram.com/noerhdt/",
-    src: "/img/app/li.webp",
     username: "@noerhdt",
   },
   {
     name: "X",
     url: "https://twitter.com/Noer1114",
-    src: "/img/app/x.webp",
     username: "@noer1114",
   },
   {
     name: "Github",
-    url: "https://github.com/noerhdt",
-    src: "/img/app/git.webp",
-    username: "noerhdt",
+    url: "https://github.com/noerhdy",
+    username: "noerhdy",
   },
 ];
