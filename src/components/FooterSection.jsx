@@ -7,7 +7,7 @@ import { layoutColor } from "@/pages/HomePage";
 const FooterSection = () => {
   const profileData = {
     name: "NN",
-    url: "https://hello-nn.vercel.app/",
+    url: "https://hello-ui.vercel.app/",
   };
 
   const handleClick = (url) => {

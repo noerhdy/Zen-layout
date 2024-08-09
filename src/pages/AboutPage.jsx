@@ -15,10 +15,15 @@ const AboutPage = () => {
           {/* content */}
           <div className="grid grid-cols-6 auto-rows-min auto-cols-min gap-6  ">
             <div className="col-span-7 sm:col-span-6 relative overflow-hidden ">
-              <img
+              <div className="bg-zinc-900 dark:bg-zinc-900 flex justify-center rounded-2xl h-72  items-center w-full">
+                <h1 className="text-8xl font-semibold text-zinc-950 tracking-widest">
+                  Zen
+                </h1>
+              </div>
+              {/* <img
                 className="object-cover sm:w-auto sm:h-auto w-full h-full bg-center "
                 src="image/about.webp"
-              ></img>
+              ></img> */}
             </div>
             {/* Text */}
             <div className="col-span-7 ">
