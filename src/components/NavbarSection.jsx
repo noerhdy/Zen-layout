@@ -4,7 +4,7 @@ import { NavLink, Outlet } from "react-router-dom";
 
 export const dataTwitter = {
   name: "X",
-  url: "https://twitter.com/Noer1114",
+  url: " ",
 };
 const handleClick = (url) => {
   window.open(url, "_blank", "noopener,noreferrer");

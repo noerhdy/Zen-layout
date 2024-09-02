@@ -57,6 +57,28 @@ export const dataCards = [
 
 export const dataContacts = [
   {
+    name: "mail",
+    url: " ",
+    username: "username@mail.com",
+  },
+  {
+    name: "Instagram",
+    url: " ",
+    username: "@username",
+  },
+  {
+    name: "X",
+    url: " ",
+    username: "@username",
+  },
+  {
+    name: "Github",
+    url: " ",
+    username: "username",
+  },
+];
+export const dataContacts2 = [
+  {
     name: "Gmail",
     url: "https://mail.google.com/mail/u/0/?view=cm&tf=1&fs=1&to=hidayatnoer11@gmail.com",
     username: "hidayatnoer11@gmail.com",
