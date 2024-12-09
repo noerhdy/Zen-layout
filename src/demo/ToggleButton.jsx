@@ -33,12 +33,12 @@ const ToggleButton = () => {
             className="sr-only"
           />
           <div
-            className={`box block h-8 w-14 rounded-full border dark:border-zinc-800 bg-primary ${
+            className={`box block h-8 w-14 rounded-full border dark:bg-transparent bg-[#4E4F51] dark:border-[#4E4F51] bg-primary ${
               isChecked ? "" : ""
             }`}
           ></div>
           <div
-            className={`absolute 50 left-1 top-1 flex h-6 w-6 items-center justify-center rounded-full bg-zinc-100 dark:bg-zinc-800 transition-transform duration-300 ${
+            className={`absolute 50 left-1 top-1 flex h-6 w-6 items-center justify-center rounded-full bg-[#D9D9D9] dark:bg-[#4E4F51] transition-transform duration-300 ${
               isChecked ? "translate-x-6" : ""
             }`}
           >

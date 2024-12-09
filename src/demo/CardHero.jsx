@@ -3,21 +3,25 @@ import { dataCards } from "../constants";
 import { Link } from "react-router-dom";
 
 const CardHero = () => {
-  const first =
-    "col-span-2 sm:col-span-1   relative rounded-lg hover:scale-90  duration-300 ease";
-  const sec =
-    "object-cover w-full h-full bg-center duration-500 ease-in-out rounded-lg  ";
-
   return (
     <>
-      <div className="grid grid-cols-2 gap-12 mt-12">
+      <div className="flex flex-wrap gap-[34px]  flex-col md:flex-row ">
         {dataCards.map((card, index) => (
-          <div key={index} className={`${first}`}>
+          <div
+            key={index}
+            className="relative rounded-2xl md:w-[calc(50%-17px)] duration-300 ease overflow-hidden"
+          >
             <Link to={`/${card.link}`}>
-              <img className={`${sec}`} src={card.thumbnail}></img>
-              <div className="text-white absolute bottom-0 p-4 flex flex-col whitespace-pre-line tracking-tighter ">
-                <span className="text-xl">{card.date}</span>
-                <h1 className="text-2xl">{card.name}</h1>
+              <img
+                className="object-cover w-full h-[400px] md:h-[562px] bg-center"
+                src={card.thumbnail}
+                alt={card.name}
+              />
+              <div className="absolute bottom-0 flex flex-col p-4 space-y-2 text-neutral-900 bg-neutral-50 w-full">
+                <h1 className="text-xl font-semibold md:text-4xl">
+                  {card.title}
+                </h1>
+                <h2 className="text-sm md:text-lg">{card.desc}</h2>
               </div>
             </Link>
           </div>
