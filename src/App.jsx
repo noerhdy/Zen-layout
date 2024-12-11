@@ -20,7 +20,7 @@ function App() {
             <Route index element={<HomePage />} />
             <Route path="/" element={<LayoutRoot />}>
               <Route path="about" element={<AboutPage />} />
-              <Route path="blade-runner2049" element={<BlogPage />} />
+              <Route path="pureSpace" element={<BlogPage />} />
               <Route path=":blogLink" element={<DynamicBlogPage />} />{" "}
               {/* Rute dinamis */}
             </Route>
