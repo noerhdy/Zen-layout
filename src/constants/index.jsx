@@ -36,44 +36,44 @@ export const dataCards = [
 export const dataContacts = [
   {
     name: "mail",
-    url: " ",
+    url: "https://dub.sh/zen-layout",
     username: "username@mail.com",
   },
   {
     name: "Instagram",
-    url: " ",
+    url: "https://dub.sh/zen-layout",
     username: "@username",
   },
   {
     name: "X",
-    url: " ",
+    url: "https://dub.sh/zen-layout",
     username: "@username",
   },
   {
     name: "Github",
-    url: " ",
+    url: "https://dub.sh/zen-layout",
     username: "username",
   },
 ];
 export const dataContacts2 = [
   {
     name: "Gmail",
-    url: "https://mail.google.com/mail/u/0/?view=cm&tf=1&fs=1&to=hidayatnoer11@gmail.com",
-    username: "hidayatnoer11@gmail.com",
+    url: "https://dub.sh/zen-layout",
+    username: "username",
   },
   {
     name: "Instagram",
-    url: "https://www.instagram.com/noerhdt/",
-    username: "@noerhdt",
+    url: "https://dub.sh/zen-layout",
+    username: "username",
   },
   {
     name: "X",
-    url: "https://twitter.com/Noer1114",
-    username: "@noer1114",
+    url: "https://dub.sh/zen-layout",
+    username: "username",
   },
   {
     name: "Github",
-    url: "https://github.com/noerhdy",
-    username: "noerhdy",
+    url: "https://dub.sh/zen-layout",
+    username: "username",
   },
 ];
