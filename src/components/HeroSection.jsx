@@ -27,7 +27,7 @@ const HeroSection = () => {
           </div>
           {/* content */}
           <div className=" relative  rounded-2xl md:min-w-[952px]  duration-300 ease overflow-hidden mb-[34px]">
-            <Link to="blade-runner2049" preventScrollReset={true}>
+            <Link to="pureSpace" preventScrollReset={true}>
               <img
                 className="object-cover h-[400px] md:h-[562px]  w-full bg-center "
                 src="thumbnail/pureSpace.webp"
